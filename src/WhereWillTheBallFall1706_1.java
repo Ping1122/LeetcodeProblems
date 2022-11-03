@@ -1,4 +1,4 @@
-public class WhereWillTheBallFall {
+public class WhereWillTheBallFall1706_1 {
     public int[] findBall(int[][] grid) {
         if (grid == null) return null;
         int m = grid.length;
