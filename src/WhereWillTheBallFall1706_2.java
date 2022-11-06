@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class WhereWillTheBallFall1706_2 {
     private int[][] grid;
     private int[][] visited;
@@ -12,7 +14,7 @@ public class WhereWillTheBallFall1706_2 {
         n = grid[0].length;
         visited = new int[m][n];
         for (int i = 0; i < m; i++) {
-            ArrO345ays.fill(visited[i], -2);
+            Arrays.fill(visited[i], -2);
         }
 
         for (int j = 0; j < n; j++) {
