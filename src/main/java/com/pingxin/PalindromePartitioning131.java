@@ -10,6 +10,13 @@ public class PalindromePartitioning131 {
     private int n;
     private List<List<Integer>> palindromes;
 
+    /* Use dynamic programming to find all palindrome substrings (optional)
+     * Then use backing tracking to find all combinations of the palindrome substrings
+     * For each character, find all palindrome substrings start with the character
+     * Each palindrome substring is a branch of the tree
+     * Use dfs to traverse the tree and collect the substring down the path
+     * */
+
     public List<List<String>> partition(String s) {
         result = new ArrayList<>();
         current = new ArrayList<>();
